@@ -1,0 +1,4 @@
+Organism	Condition	GeneExpFile	Medium	Network
+Scerevisiae	Glucose	data/transcriptomes/Scerevisiae_Expfile_Glucose.csv	data/mediums/Scerevisiae_Medium.csv	data/gems/iMM904.xml
+Ecoli	Glucose	data/transcriptomes/Ecoli_Expfile_Glucose.csv	data/mediums/Ecoli_Medium.csv	data/gems/iJO1366.xml
+Homo_sapiens	PrimaryTumor_StageIIIA	data/transcriptomes/002aa584-7dd3-4c62-952b-b24e5858482b/a5dc521e-bee4-489c-8679-d4b90a327d33.FPKM.txt	data/mediums/Hsapiens_cellMedium.csv	data/gems/Recon3D.xml

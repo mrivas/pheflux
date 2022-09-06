@@ -1,0 +1,11 @@
+Metabolite_Name	Reaction_ID
+Fe2+	EX_fe2_e
+D-Glucose	EX_glc__D_e
+H2O	EX_h2o_e
+H+	EX_h_e
+Potassium	EX_k_e
+Sodium	EX_na1_e
+Sulfate	EX_so4_e
+Ammonium	EX_nh4_e
+O2	EX_o2_e
+Phosphate	EX_pi_e

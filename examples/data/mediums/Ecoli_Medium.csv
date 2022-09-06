@@ -1,0 +1,26 @@
+Metabolite_Name	Reaction_ID
+CO2	EX_co2_e
+Co2+	EX_cobalt2_e
+D-Glucose	EX_glc__D_e
+H+	EX_h_e
+H2O	EX_h2o_e
+Potassium	EX_k_e
+Copper	EX_cu2_e
+Magnesium	EX_mg2_e
+Manganese	EX_mn2_e
+Molybdate	EX_mobd_e
+Sodium	EX_na1_e
+Ammonium	EX_nh4_e
+Calcium	EX_ca2_e
+Cob(I)alamin	EX_cbl1_e
+Nickel	EX_ni2_e
+O2	EX_o2_e
+Chloride	EX_cl_e
+Phosphate	EX_pi_e
+Zinc	EX_zn2_e
+Selenate	EX_sel_e
+Selenite	EX_slnt_e
+Sulfate	EX_so4_e
+Tungstate	EX_tungs_e
+Fe2+ mitochondria	EX_fe2_e
+Iron (Fe3+)	EX_fe3_e

@@ -12,7 +12,7 @@ import random
 import string
 
 ##############################################################################
-### Obtains expression value 'g' for one reaction, based on the GPR
+### Obtains expression value 'g' for each reaction, based on the gene-protein-rule
 def getG(rule,fpkmDic):
     orList=[]
     # Devide the rule by "or" and iterate over each resulting subrule
@@ -28,6 +28,7 @@ def getG(rule,fpkmDic):
         value = eval("min("+value+")", fpkmDic)
         orList.append(value) # Add the minimum to a list
     return( np.sum(orList) ) # Print the sum of the list
+
 ##############################################################################
 ### This function gives a useful vector to discriminate if the FPKM of the
 ### genes associated with a reaction is known.
@@ -77,8 +78,9 @@ def loadFPKM(fpkm,condition,shuffle=False,shuffledFPKM=pd.DataFrame()):
         if fpkmDic[i]>cap:
             fpkmDic[i] = cap
     return(fpkmDic,shuffledFPKM)
+
 ##############################################################################
-### Reloading FPKM data. Only for Homo sapiens.
+### Loading FPKM data for Homo sapiens. 
 def reloadFPKMHsapiens(fpkmDic, model):
     newfpkmDic = {}
     for gene in model.genes:
